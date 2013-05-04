@@ -1,6 +1,33 @@
-Tuenti Challenge 2012
+Solución al reto 3
 ==========
 
-Solutions to Tuenti Challenge problem I do in my spare time to make mind work out. 
+You are a genius working for one of the most famous high-frequency trading firms in the world. 
+But you are an evil genius and have found a backdoor that lets you add fake operations in the 
+last second with all the daily stock information available. Having all the information, 
+you can choose when to buy some shares and when to sell them and get maximum profit. Of course, 
+you don't want to be greedy and draw attention to the operations and get caught, so you limit 
+them to one buy and sell per day. Since it's a high-frequency trading system and you expect a big input, 
+you design a program that reads all the stock information with 100ms resolution, gives the time when you 
+want to add the buy and sell operations (in milliseconds) and tells you the expected gain. 
+Of course, you want the maximum gain for that transaction.
 
-I plan to also put a little reasoning explanation and some data test set with each problem code.
+Input
+One line with an integer for each stock sample.
+Output
+The starting (when you buy) and ending (when you sell) point of the transaction in milliseconds
+and the expected gain.
+
+Sample input
+70
+93
+69
+75
+52
+73
+67
+81
+65
+48
+67
+Sample output
+400 700 29
